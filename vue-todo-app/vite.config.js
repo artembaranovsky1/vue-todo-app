@@ -6,7 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
+    base: '/new-theory_vue-todo-app_composition-api/',
+    plugins: [
     vue(),
     vueDevTools(),
   ],
